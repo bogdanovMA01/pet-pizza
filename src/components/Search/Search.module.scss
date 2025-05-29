@@ -1,0 +1,20 @@
+.root {
+  border: 1px solid gray;
+  padding: 12px 20px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.clearIcon {
+  opacity: 0.3;
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  top: 100px;
+  right: 730px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
